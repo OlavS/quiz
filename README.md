@@ -8,9 +8,9 @@ For development of this project you need Visual Studio.
 
 Download and install [SQL Server 2022 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads). Run the server. If you see that the connection string differs from the one found in DependencyInjection, replace it.
 
-Database migrations can be runned by going to the backend source folder quiz, open PowerShell and type `dotnet ef database update` 
+Database migrations can be runned by going to the quiz-backend source folder quiz, open PowerShell and type `dotnet ef database update` 
 
-If you want to seed the database with data and not create your own, there are some data seeds found in the  root folder (seed-data). These has to be runned manually, to do this you could for instance use SQL Server Object Extension which is an extension in Visual Studio. To obtain this go to Tools - Get Tools And Features. Scroll down in Workloads, check Data storage and processing and install. If you cannot see SQL Server Object Extension, click on View and select it. Connect to your local database. Right click on the database, choose New query, copy the content from the script files. Run the SQL scripts in the correct order, they are prefixed with a numbered.
+If you want to seed the database with data and not create your own, there are some data seeds found in the  quiz-backend folder (seed-data). These has to be runned manually, to do this you could for instance use SQL Server Object Extension which is an extension in Visual Studio. To obtain this go to Tools - Get Tools And Features. Scroll down in Workloads, check Data storage and processing and install. If you cannot see SQL Server Object Extension, click on View and select it. Connect to your local database. Right click on the database, choose New query, copy the content from the script files. Run the SQL scripts in the correct order, they are prefixed with a numbered.
 
 ## Running the application
 
