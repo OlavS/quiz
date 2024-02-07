@@ -1,0 +1,17 @@
+SET IDENTITY_INSERT [dbo].[Alternative] ON
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (2, N'242m', 0, 1)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (3, N'289m', 0, 1)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (4, N'324m', 1, 1)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (6, N'Portugal', 0, 2)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (8, N'Bulgaria', 0, 2)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (9, N'Marokko', 1, 2)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (10, N'Tokyo', 0, 3)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (11, N'Osaka', 0, 3)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (12, N'Borneo', 1, 3)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (13, N'Irland', 1, 4)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (14, N'Nederland', 0, 4)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (15, N'Sverige', 0, 4)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (16, N'Texas', 0, 5)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (17, N'Arizona', 1, 5)
+INSERT INTO [dbo].[Alternative] ([Id], [Alternative], [CorrectAnswer], [QuestionId]) VALUES (18, N'Washington', 0, 5)
+SET IDENTITY_INSERT [dbo].[Alternative] OFF
